@@ -11,6 +11,10 @@ $$S(x) = \frac{1}{1+e^{-y}} = p \qquad \text{where} \enspace  y = \sum\limits_{i
   <img src="img/sigmoid.png" alt-"sigmoid" width="300" height="300">
 </div>
 
+Three functions that are required to build:
+1. A predict function (Applying sigmoid)
+2. A cost function (To evaluate the result of the predict function)
+3. A gradient descent alogrithm (To improve the weight)
 
 ## Data
 Iris dataset: https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
@@ -20,4 +24,4 @@ Iris dataset: https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_d
 Achieved an accuracy of 1.0
 
 ## Conclusion
-The model works well on a simple binary classification task. It is sensible to test on more complicatd dataset and extend it to a multi-class classificaiton model. More features such as regularisation and feature scaling can be added to the model.
+The model works well on a simple binary classification task. It is sensible to test on a more complicatd dataset and extend it to a multi-class classificaiton model. More features such as regularisation and feature scaling can be added.
