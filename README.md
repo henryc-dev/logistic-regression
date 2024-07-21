@@ -8,7 +8,7 @@ One way to do so is to find a smooth and well-shaped function that maps $(-\inft
 $$S(x) = \frac{1}{1+e^{-y}} = p$$
 
 
-where $y = \sum_{i=0}^{n}\beta_ix_i$
+$\text{where } y = \sum\limits_{i=0}^{n}\beta_ix_i\$
 
 ## Data
 Iris dataset: https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
