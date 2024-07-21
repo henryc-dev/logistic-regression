@@ -18,3 +18,6 @@ Iris dataset: https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_d
 
 ## Results
 Achieved an accuracy of 1.0
+
+## Conclusion
+The model works well on a simple binary classification task. It is sensible to test on more complicatd dataset and extend it to a multi-class classificaiton model. More features such as regularisation and feature scaling can be added to the model.
