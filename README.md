@@ -1,5 +1,5 @@
 # Logistic Regression Model from Scratch
-Build a simple logistic regression model from scratch and test it with a binary classification class. The key idea is to generalize the linear regression result to a classification model by finding a <b>link</b> function $g$ that bridge linear regression to probabilistic values.
+Build a simple logistic regression model from scratch and test it with a binary classification task. The key idea is to generalize the linear regression result to a classification model by finding a <b>link</b> function $g$ that bridge linear regression to probabilistic values.
 
 $$ g(P(y=i)) = \sum_{i=0}^{n}\beta_ix_i $$
 
@@ -7,7 +7,7 @@ One way to do so is to find a smooth and well-shaped function that maps $(-\inft
 
 $$S(x) = \frac{1}{1+e^{-y}} = p \qquad \text{where} \enspace  y = \sum\limits_{i=0}^{n}\beta_ix_i\$$
 
-<div align="center">!
+<div align="center">
   <img src="img/sigmoid.png" alt-"sigmoid" width="300" height="300">
 </div>
 
