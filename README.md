@@ -5,7 +5,7 @@ $$ g(P(y=i)) = \sum_{i=0}^{n}\beta_ix_i $$
 
 One way to do so is to find a smooth and well-shaped function that maps $(-\infty, \infty)$ to (0, 1), which we call the <b>signmoid</b> function:
 
-$$S(x) = \frac{1}{1+e^{-y}} = p$$
+$$S(x) = \frac{1}{1+e^{-y}} = p \qquad \text{where} \enspace  y = \sum\limits_{i=0}^{n}\beta_ix_i\$$
 
 
 $\text{where } y = \sum\limits_{i=0}^{n}\beta_ix_i\$
