@@ -7,9 +7,14 @@ One way to do so is to find a smooth and well-shaped function that maps $(-\inft
 
 $$S(x) = \frac{1}{1+e^{-y}} = p \qquad \text{where} \enspace  y = \sum\limits_{i=0}^{n}\beta_ix_i\$$
 
+<div align="center">!
+  <img src="img/sigmoid.png" alt-"sigmoid" width="300" height="300">
+</div>
+
 
 ## Data
 Iris dataset: https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
+
 
 ## Results
 Achieved an accuracy of 1.0
