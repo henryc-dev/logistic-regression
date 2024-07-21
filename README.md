@@ -3,12 +3,10 @@ Build a simple logistic regression model from scratch and test it with a binary 
 
 $$ g(P(y=i)) = \sum_{i=0}^{n}\beta_ix_i $$
 
-One way to do so is to find a smooth and well-shaped function that maps $(-\infty, \infty)$ to (0, 1), which we call the <b>signmoid</b> function:
+One way to do so is to find a smooth and well-shaped function that maps $(-\infty, \infty)$ to (0, 1), which we call the <b>sigmoid</b> function:
 
 $$S(x) = \frac{1}{1+e^{-y}} = p \qquad \text{where} \enspace  y = \sum\limits_{i=0}^{n}\beta_ix_i\$$
 
-
-$\text{where } y = \sum\limits_{i=0}^{n}\beta_ix_i\$
 
 ## Data
 Iris dataset: https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
