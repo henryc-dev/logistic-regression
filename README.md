@@ -1,4 +1,4 @@
-# Logistic Regression Model from Scratch
+# Logistic Regression Model
 Build a simple logistic regression model from scratch and test it with a binary classification task. The key idea is to generalize the linear regression result to a classification model by finding a <b>link</b> function $g$ that bridge linear regression to probabilistic values.
 
 $$ g(P(y=i)) = \sum_{i=0}^{n}\beta_ix_i $$
